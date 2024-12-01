@@ -1,10 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap|Exo:100,200,300,400,500,600,700');
 
+
+/* ---------------------------------- Colours --------------------------------- */
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-colour-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-colour-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-colour-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-colour-download {
+    background-color: #525252;
+}
+/* ---------------------------------- Heading --------------------------------- */
 header {
     margin: 0;
 }
 
+.heading {
+    margin-left: 0;
+}
+
 .logo {
+    /*Photograph taken by Katy Ashworth of Sean Scully's Crate of Air 2018*/
     background: url(../css/images/artwork.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -17,7 +44,68 @@ header {
 
 }
 
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    padding-left: 56px;
+    color: whitesmoke;
+}
 
-body {
-    font-family: ;
+.title {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    padding-left: 56px;
+    color: whitesmoke
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+/*--- closing the gap between in inline element -- */
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+/*--- closing the gap between in inline element -- */
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menu-item a i {
+    padding-top: 22px;
+    display: block;
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
