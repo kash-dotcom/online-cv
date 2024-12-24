@@ -133,7 +133,7 @@ header {
 
 .logo {
     /*Photograph taken by Katy Ashworth of Sean Scully's Crate of Air 2018*/
-    background: url(../css/images/artwork.webp);
+    background: url(../images/artwork.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
